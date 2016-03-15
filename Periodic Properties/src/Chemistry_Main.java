@@ -13,7 +13,9 @@ public class Chemistry_Main
 //		PresentMenu(in);
 //		in.close();
 		
-		Element sample = new Element("sample", "Sa", 34, (float) 43.25, null, null);
+		Element sample = new Element("sample element", "Sa", 34, (float) 43.25, null, null);
+        
+        // testing element layout in console
 		System.out.println(sample);
 	}
 
