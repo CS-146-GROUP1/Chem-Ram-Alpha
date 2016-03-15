@@ -1,11 +1,8 @@
-# Chem Ram Alpha
-	(or Beta if you get the pun)
-
+# Chem Ram Beta
 Introduction:
 
-The chemistry project is going to be our class project for CS146. The objective of the project will be uploaded to gitHub tonight. We will make sure that we intensify the project over spring break. Over the course of the project we will recieve outwside help but we will keep it to a minimum.
 
-Welcome to Chem Ram Alpha (or beta)
+Welcome to Chem Ram Beta:
 This is an application that will be used to help chenistry students and/or professors balence chemical reactions with ease no matter what kind of reaction we are dealing with. This is a project for our computer science class at San Jose State University. With this application, the user should be able to effectively view the periodic table and be able to balence chemical reactions with relative ease.
 
 Objectives:
@@ -35,3 +32,8 @@ Maximum goal:
 
 
 End of project kickoff
+
+
+
+Note:
+The chemistry project is going to be our class project for CS146. The objective of the project will be uploaded to gitHub tonight. We will make sure that we intensify the project over spring break. Over the course of the project we will recieve outwside help but we will keep it to a minimum.
