@@ -45,7 +45,7 @@ Minimnum goal:
 		(If that word is even a thing)
 	- be able to basic chemical equations
 	- implemenet 'auto-look-up' for chemicals and elements
-	- 
+	- balence one or two types of reactions
 
 Maximum goal:
 	- implement balencing of redox reactions
