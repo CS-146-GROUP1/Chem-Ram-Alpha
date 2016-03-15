@@ -39,11 +39,7 @@ public class Chemistry_MainTest
 	 * These are the methods that we are testing
 	 */
 	
-	/**
-	 * 
-	 * @param element_Isotope
-	 * @return
-	 */
+	/** helps to find the isotope numbers **/ 
 	private int find_IsotopeNumber(String element_Isotope) 
 	{
 		String truncated_Name = element_Isotope.substring(element_Isotope.indexOf('-') + 1);
