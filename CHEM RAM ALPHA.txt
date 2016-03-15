@@ -54,6 +54,7 @@ Maximum goal:
 		- electron affinity
 		- atomic radi
 		- valence electrons for some groups & periods in the table
+		- ionization potential energys
 
 
 End of project kickoff
