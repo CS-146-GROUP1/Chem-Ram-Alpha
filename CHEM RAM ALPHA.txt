@@ -1,13 +1,12 @@
 The chemistry project is going to be our class project for CS146. The objective of the project will be uploaded to gitHub tonight. We will make sure that we intensify the project over spring break. Over the course of the project we will recieve outwside help but we will keep it to a minimum.
 
 
-This is an application that will be used to help chenistry students and/or professors balence chemical reactions with ease no matter what kind of reaction we are dealing with. This is a project for our computer science class at San Jose State University. With this application, the user should be able to effectively view the periodic table and be able to 
+This is an application that will be used to help chenistry students and/or professors balence chemical reactions with ease no matter what kind of reaction we are dealing with. This is a project for our computer science class at San Jose State University. With this application, the user should be able to effectively view the periodic table and be able to balence chemical reactions with relative ease. 
 
 
-How this application will end up looking:
 
 
-Accepted forms of User input:
+Examples of Accepted Forms of User Input:
 H20 + C02 --> 2_H30 + CO 		reactants and products
 H20 + C02 				reactants
 H					chemical symbol for element
@@ -45,6 +44,11 @@ Minimnum goal:
 
 Maximum goal:
 	- implement balencing of redox reactions
+	- implement periodic properties such as:
+		- electronegativity
+		- electron affinity
+		- atomic radi
+		- valence electrons for some groups & periods in the table
 
 
 End of project kickoff
