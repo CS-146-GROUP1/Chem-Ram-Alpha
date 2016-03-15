@@ -19,6 +19,7 @@ Hydrogen peroxide			name of chemical compound
 
 
 How the information will be displayed to the user:
+-------------------------------------------------
 
 Classify these inputs as:
 	Balance Equation
@@ -31,13 +32,15 @@ Atomic Number: 1
 Isotope(s): 2.4, ..., ..., etc.
 
 
-
-// need some help editing this portion here
-Not seen by user: "Hydrogen" "Peroxide" "H20"
-H - Element Look Up
-Hydrogen - Element Look up
-H20 + C02 - Balance Equation
-water - chemical formula lookup
+// need some help editing this portion here 
+----------------------------------------------
+					     |
+Not seen by user: "Hydrogen" "Peroxide" "H20"|
+H - Element Look Up			     |
+Hydrogen - Element Look up		     |
+H20 + C02 - Balance Equation		     |
+water - chemical formula lookup              |
+----------------------------------------------
 
 
 Minimnum goal:
