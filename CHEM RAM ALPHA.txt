@@ -29,10 +29,22 @@ Not seen by user: "Hydrogen" "Peroxide" "H20"
 
 
 
-Classify these inputs as "Balance Equation", or "Element Lookup"
+Classify these inputs as:
+	Balance Equation
+	Element Lookup
+	View Periodic table
+
 1 - Element Look Up
 H - Element Look Up
 Hydrogen - Element Look up
 H20 + C02 - Balance Equation
 
 
+Minimnum goal:
+
+
+Maximum goal:
+
+
+
+End of project kickoff
