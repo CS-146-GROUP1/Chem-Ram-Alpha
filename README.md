@@ -18,8 +18,7 @@ By the end of this project, we should be able to balence atleast one or two of t
 Minimnum goal:
 	- 'codify' the periodic table
 		(If that word is even a thing)
-	- be able to basic chemical equations
-	- implemenet 'auto-look-up' for chemicals and elements
+	- be able to basic chemical equations, implement 'auto-look-up' for chemicals and elements
 	- balence one or two types of reactions
 
 Maximum goal:
