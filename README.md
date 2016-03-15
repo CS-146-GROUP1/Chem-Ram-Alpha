@@ -21,10 +21,10 @@ By the end of this project, we should be able to balence atleast one or two of t
 
 Examples of Accepted Forms of User Input:
 H20 + C02 --> 2_H30 + CO      		reactants and products
-H20 + C02 				                reactants
-H           					            chemical symbol for element
-Hydrogen		      		            name of element
-Hydrogen peroxide			            name of chemical compound
+H20 + C02 				reactants
+H           				chemical symbol for element
+Hydrogen		      		name of element
+Hydrogen peroxide			name of chemical compound
 
 
 Minimnum goal:
