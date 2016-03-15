@@ -3,6 +3,7 @@ Introduction:
 
 
 Welcome to Chem Ram Beta:
+
 This is an application that will be used to help chenistry students and/or professors balence chemical reactions with ease no matter what kind of reaction we are dealing with. This is a project for our computer science class at San Jose State University. With this application, the user should be able to effectively view the periodic table and be able to balence chemical reactions with relative ease.
 
 Objectives:
