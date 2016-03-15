@@ -18,13 +18,13 @@ public class Periodic_Table
 	 * Will be either in arrays or arrayLists
 	 * This is an option if we want to add things into the list
 	 */
-	ArrayList<Element> Alkali_metals;
-	ArrayList<Element> Alkaline_metals;
-	ArrayList<Element> Transition_metals;
-	ArrayList<Element> Halogens;
-	ArrayList<Element> Noble_gases;
-	ArrayList<Element> Lanthanides;
-	ArrayList<Element> Actinides;	
+//	ArrayList<Element> Alkali_metals;
+//	ArrayList<Element> Alkaline_metals;
+//	ArrayList<Element> Transition_metals;
+//	ArrayList<Element> Halogens;
+//	ArrayList<Element> Noble_gases;
+//	ArrayList<Element> Lanthanides;
+//	ArrayList<Element> Actinides;	
 	
 	private class Element extends Periodic_Table implements Comparator<Element> 
 	{
