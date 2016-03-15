@@ -36,4 +36,4 @@ End of project kickoff
 
 
 Note:
-The chemistry project is going to be our class project for CS146. The objective of the project will be uploaded to gitHub tonight. We will make sure that we intensify the project over spring break. Over the course of the project we will recieve outwside help but we will keep it to a minimum.
+The chemistry project is going to be our class project for CS146. The objective of the project will be uploaded to gitHub tonight. We will make sure that we intensify the project over spring break. Over the course of the project we will recieve outside help but we will keep it to a minimum.
