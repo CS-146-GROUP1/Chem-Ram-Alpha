@@ -3,7 +3,7 @@ import java.util.Stack;
 import java.util.ArrayList;
 
 /**
- * @author Adish
+ * @author Adish betawar
  *
  */
 public class Periodic_Table
