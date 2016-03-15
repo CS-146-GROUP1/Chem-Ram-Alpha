@@ -117,7 +117,7 @@ public class Element extends Periodic_Table implements Comparator<Element>
 		
 		@Override
 		/**
-		 * Overrided the comparator interface compare method to accept the ELement type. The comparisions will be made based on the   
+		 * Overrides the comparator interface compare method to accept the ELement type. The comparisions will be made based on the   
 		 */
 		public int compare(Element e1, Element e2)
 		{
