@@ -138,7 +138,7 @@ public class Element extends Periodic_Table implements Comparator<Element>
 		public String toString()
 		{
 			return chemical_Symbol + "\n"
-					+ "Element name: " name + "\n"
+					+ "Element name: " + name + "\n"
 					+ "Atomic number: " + atomic_Number
 					+ "Atomic mass: " + atomic_Mass + "\n"
 					+ "Known isotopes: " +  known_Isotopes.toString();
