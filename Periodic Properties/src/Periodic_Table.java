@@ -1,6 +1,7 @@
 import java.util.Comparator;
 import java.util.Stack;
 import java.util.ArrayList;
+
 /**
  * @author Adish
  *
@@ -8,9 +9,8 @@ import java.util.ArrayList;
 public class Periodic_Table
 {
 	// global required but still in thought
-	int GROUP = 0;
-	int PERIOD = 0;
-	Element[][] periodic_Table; // case statement somewhere for group classification required
+	int GROUP = 0; // vertical column
+	int PERIOD = 0; // horizontal row
 	
 	
 	//Specific GROUP or PERIOD names
@@ -23,8 +23,8 @@ public class Periodic_Table
 //	ArrayList<Element> Transition_metals;
 //	ArrayList<Element> Halogens;
 //	ArrayList<Element> Noble_gases;
-//	ArrayList<Element> Lanthanides;
-//	ArrayList<Element> Actinides;	
+	ArrayList<Element> Lanthanides;
+	ArrayList<Element> Actinides;	
 	
 	private class Element extends Periodic_Table implements Comparator<Element> 
 	{
@@ -33,19 +33,37 @@ public class Periodic_Table
 		
 		int atomic_Number; // number of protons in atom
 		Stack<String> known_Isotopes;
-		float atomic_Mass;
+		double atomic_Mass;
 	
 		// LinkedList like implementation
-//		Element next_Element;
-//		Element previous_Element;
+		Element previous_Element;
+		Element next_Element;
 		
 		/**
 		 * default constructor
 		 */
 		public Element()
 		{
-			name = "";
-			
+			name = "Unknown";
+			chemical_Symbol = "";
+			atomic_Number = 0;
+			atomic_Mass = 0.0;
+			known_Isotopes = new  Stack<String>(); // add the isotopes in this stack
+			previous_Element = null; // in default constructor
+			next_Element = null; // in default constructor			
+		}
+		
+		
+		
+		public Element(String ele_name, String symbol, int number, float mass, Element next, Element previous)
+		{
+			name = ele_name;
+			chemical_Symbol = symbol;
+			atomic_Number = number;
+			atomic_Mass = mass;
+			known_Isotopes = new  Stack<String>(); // add the isotopes in this stack
+			next_Element = next;
+			previous_Element = previous;
 		}
 			
 		/** @return name            **/
@@ -53,6 +71,7 @@ public class Periodic_Table
 		{
 			return name;
 		}
+		
 		
 		/** @return chemical symbol **/
 		String get_Chemical_Symbol()
@@ -64,6 +83,12 @@ public class Periodic_Table
 		int get_Atomic_Number()
 		{
 			return atomic_Number;
+		}
+		
+		/** @return atomic mass **/
+		double get_Atomic_Mass()
+		{
+			return atomic_Mass;
 		}
 		
 		
@@ -114,7 +139,11 @@ public class Periodic_Table
 			return result;
 		}
 
+		
 		@Override
+		/**
+		 * Overrided the comparator interface compare method to accept the ELement type. The comparisions will be made based on the   
+		 */
 		public int compare(Element e1, Element e2)
 		{
 			if (e1.atomic_Number > e2.atomic_Number)
@@ -152,13 +181,13 @@ public class Periodic_Table
 //	
 //	
 //	
-//	/**
-//	 * Stores a new elements into the table
-//	 * @return
-//	 */
-//	public Element Insert_New_Element()
-//	{
-//		return null;
-//	}
+	/**
+	 * Stores a new elements into the table
+	 * @return
+	 */
+	public Element Insert_New_Element()
+	{
+		return null;
+	}
 	
 }
