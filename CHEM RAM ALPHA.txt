@@ -31,6 +31,8 @@ Atomic Number: 1
 Isotope(s): 2.4, ..., ..., etc.
 
 
+
+// need some help editing this portion here
 Not seen by user: "Hydrogen" "Peroxide" "H20"
 H - Element Look Up
 Hydrogen - Element Look up
