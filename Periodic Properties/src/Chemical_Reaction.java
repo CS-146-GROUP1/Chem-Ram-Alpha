@@ -10,20 +10,21 @@ public class Chemical_Reaction extends Chemistry
 {
 	
 	class Normal_Reaction
-	{		
+	{
 		Object reactants;
 		Object products;
-		
 	}
 	
 	class Redox_Reaction
 	{
-		
+		Object reactants;
+		Object products;
 	}
 	
 	class Acid_Base_Reaction
 	{
-		
+		Object reactants;
+		Object products;		
 	}
 	
 	

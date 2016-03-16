@@ -11,9 +11,6 @@ public class Periodic_Table extends Chemistry
 	// global required but still in thought
 	int GROUP = 0; // vertical column
 	int PERIOD = 0; // horizontal row
-	private ArrayList<String> known_Chemical_Names;
-	private ArrayList<String> polyAtomicIOns;
-
 	
 	//Specific GROUP or PERIOD names
 	/**
@@ -71,14 +68,5 @@ public class Periodic_Table extends Chemistry
 	{
 		return null;
 	}
-	
-	
-	
-	public void add_To_PolyatomicIons(String name)
-	{
-		polyAtomicIOns.add(name);
 		
-	}
-	
-	
 }
