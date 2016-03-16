@@ -6,12 +6,14 @@ import java.util.ArrayList;
  * @author Adish betawar
  *
  */
-public class Periodic_Table
+public class Periodic_Table extends Chemistry
 {
 	// global required but still in thought
 	int GROUP = 0; // vertical column
 	int PERIOD = 0; // horizontal row
-	
+	private ArrayList<String> known_Chemical_Names;
+	private ArrayList<String> polyAtomicIOns;
+
 	
 	//Specific GROUP or PERIOD names
 	/**
@@ -36,8 +38,6 @@ public class Periodic_Table
 	 * 		Carbon dioxide = C02
 	 * 		Nitric acid = HNO2
 	 */
-	private ArrayList<String> known_Chemical_Names;
-	private ArrayList<String> polyAtomicIOns;
 	
 	
 	
@@ -51,17 +51,17 @@ public class Periodic_Table
 	
 
 	// OPTIONAL CODE \\
-//	public Element get_Element_From_Group(int group_Number)
-//	{
-//		return null;
-//	}
-//	
+	public Element get_Element_From_Group(int group_Number)
+	{
+		return null;
+	}
+	
 //	public Element get_Element_From_Period(int period_Number)
 //	{
 //		return null;
 //	}
-//	
-//	
+	
+	
 //	
 	/**
 	 * Stores a new elements into the table

@@ -6,7 +6,7 @@
  *
  */
 
-public class Chemical_Reaction 
+public class Chemical_Reaction extends Chemistry
 {
 	
 	class Normal_Reaction
@@ -26,6 +26,10 @@ public class Chemical_Reaction
 		
 	}
 	
+	
+	/**
+	 * identifies what object are we trying to createyo
+	 */
 	public void Identify_Reaction_Type()
 	{
 		
