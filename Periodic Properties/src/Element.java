@@ -39,9 +39,9 @@ public class Element extends Periodic_Table implements Comparator<Element>
 			known_Isotopes = new  Stack<String>(); // add the isotopes in this stack
 			next_Element = next;
 			previous_Element = previous;
-		}
+		}	
 			
-		/** @return name            **/
+		/** 		@return name            **/
 		String get_Name()
 		{
 			return name;
