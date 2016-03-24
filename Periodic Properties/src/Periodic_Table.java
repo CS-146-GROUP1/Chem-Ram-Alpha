@@ -47,24 +47,27 @@ public class Periodic_Table extends Chemistry
 	// OPTIONAL CODE \\
 	public Element get_Element_From_Group(int group_Number)
 	{
+		// goes into group and extracts element
 		return null;
 	}
 	
 	public Element get_Element_From_Period(int period_Number)
 	{
+		// goes into period and extracts element
 		return null;
 	}
-	
-	
-//	
+
+
+	// OPTIONAL CODE \\
 	/**
 	 * Stores a new elements into the table
 	 * @return
 	 */
-	public Element Insert_New_Element(Scanner in)
+	public Element Insert_New_Element()
 	{
 		Element newElement = new Element();
 		newElement.name = null;
+		newElement.atomic_Mass = 0.0; // user inputs number
 		return null;
 	}
 		

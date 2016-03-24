@@ -25,8 +25,7 @@ public class Chemical_Reaction extends Chemistry
 		Object reactants;
 		Object products;
 		int charge;
-		
-		int oxidation_Number;
+		int oxidation_Number; // should be duplicated for all kinds of reactions
 		public String PerformReaction()
 		{
 			return "";
