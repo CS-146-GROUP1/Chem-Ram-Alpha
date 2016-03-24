@@ -39,8 +39,7 @@ public class Periodic_Table extends Chemistry
 	// when you sort, you sort one group and group them into 
 	
 	/**
-	 * The entire  periodic table will consist of all elements consolidated into their groups. This will make the concept easier.
-	 * We should be able to access all elements via stack, hybridLinkedList. WHat will end up happening in the ultimate goal is that we should be able to  
+	 * Periodic table has been documented and will be put into action for the other portions of the project
 	 */
 	
 
