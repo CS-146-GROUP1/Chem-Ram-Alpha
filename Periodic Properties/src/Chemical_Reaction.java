@@ -49,9 +49,14 @@ public class Chemical_Reaction extends Chemistry
 	/**
 	 * identifies what object are we trying to createyo
 	 */
-	public void Identify_Reaction_Type()
+	public void Identify_Reaction_Type(String reaction)
 	{
-		
+		// key indicator for reaction
+		boolean oxygen_Detection = false;
+		if (reaction.contains(oxygen_Detection))
+		{
+
+		}
 	}
 
 }
