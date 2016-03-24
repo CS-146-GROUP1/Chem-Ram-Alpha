@@ -10,5 +10,10 @@ public class Chemistry
 		polyAtomicIOns.add(name);
 	}
 
+	public void add_To_Chemical_Names(String name)
+	{
+		known_Chemical_Names.add(name);
+	}
+
 
 }

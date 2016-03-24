@@ -59,15 +59,15 @@ public class Periodic_Table extends Chemistry
 
 	// OPTIONAL CODE \\
 	/**
-	 * Stores a new elements into the table
-	 * @return
+	 * Stores a new elements into the periodic table
+	 * This is a paid feature
 	 */
-	public Element Insert_New_Element()
+	public void Insert_New_Element()
 	{
 		Element newElement = new Element();
 		newElement.name = null;
 		newElement.atomic_Mass = 0.0; // user inputs number
-		return null;
+		// add to table
 	}
 		
 }

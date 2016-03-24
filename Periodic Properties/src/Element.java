@@ -84,9 +84,8 @@ public class Element extends Periodic_Table implements Comparator<Element>
 		/**
 		 * Helper method for when we insert isotopes of an element into the Stack 
 		 * @param element_Isotope: the element isotope that you are looking at
-		 * @param isotope_Number: the number as extracted by the element name
 		 */
-		void sortedInsert(String element_Isotope)
+		private void sortedInsert(String element_Isotope)
 		{
 			int isotope_Number = find_IsotopeNumber(element_Isotope);
 			if (known_Isotopes.isEmpty() || element_Isotope.compareTo(known_Isotopes.pop()) > 0)

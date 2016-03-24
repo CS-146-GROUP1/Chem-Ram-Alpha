@@ -1,4 +1,4 @@
-This is a project that will potentially become the next project for CS146 Advanced Data Structures and Algorithms. 
-The prime goal of this project is to attempt to copy the whole Periodic Table from chemistry and store it into code. 
+This is a project that will potentially become the next project for CS146 Advanced Data Structures and Algorithms.
+The prime goal of this project is to attempt to copy the whole Periodic Table from chemistry and store it into code.
 The goal is to make an application that will be able to automatically balance chemical reactions.
-We should also be able to view some of the chemical properties for the elements on the periodic table.
+An additional objective that we will attempt to do is to be able to view some of the chemical properties for some of the elements on the periodic table.
