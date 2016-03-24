@@ -35,9 +35,6 @@ public class Periodic_Table extends Chemistry
 	 * 		Carbon dioxide = C02
 	 * 		Nitric acid = HNO2
 	 */
-	
-	
-	
 	// implement sort by atomic number
 	// when you sort, you sort one group and group them into 
 	
@@ -53,10 +50,10 @@ public class Periodic_Table extends Chemistry
 		return null;
 	}
 	
-//	public Element get_Element_From_Period(int period_Number)
-//	{
-//		return null;
-//	}
+	public Element get_Element_From_Period(int period_Number)
+	{
+		return null;
+	}
 	
 	
 //	
@@ -64,8 +61,10 @@ public class Periodic_Table extends Chemistry
 	 * Stores a new elements into the table
 	 * @return
 	 */
-	public Element Insert_New_Element()
+	public Element Insert_New_Element(Scanner in)
 	{
+		Element newElement = new Element();
+		newElement.name = null;
 		return null;
 	}
 		
