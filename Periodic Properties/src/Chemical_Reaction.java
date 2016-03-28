@@ -26,6 +26,20 @@ public class Chemical_Reaction extends Chemistry
 		Object products;
 		int charge;
 		int oxidation_Number; // should be duplicated for all kinds of reactions
+		class Acid_Redox
+		{
+
+		}
+
+		class Base_Redox
+		{
+
+		}
+
+		/**
+		 * Returns the balenced reaction of the reactions
+		 * @return
+		 */
 		public String PerformReaction()
 		{
 			return "";
