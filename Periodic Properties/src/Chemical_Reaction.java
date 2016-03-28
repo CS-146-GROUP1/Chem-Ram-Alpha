@@ -1,4 +1,3 @@
-
 /**
  * Fundamentals in balancing chemical reaction is that you must have 
  * the same number of elements on the reactants side as the product
@@ -67,10 +66,6 @@ public class Chemical_Reaction extends Chemistry
 	{
 		// key indicator for reaction
 		boolean oxygen_Detection = false;
-		if (reaction.contains(oxygen_Detection))
-		{
-
-		}
 	}
 
 }
